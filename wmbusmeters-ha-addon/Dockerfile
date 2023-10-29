@@ -5,8 +5,8 @@ ENV LANG C.UTF-8
 
 RUN apk add --no-cache alpine-sdk gcc linux-headers librtlsdr-dev cmake libusb-dev
 
-ADD https://api.github.com/repos/wmbusmeters/wmbusmeters/git/refs/heads/master version.json
-RUN git clone https://github.com/wmbusmeters/wmbusmeters.git && \
+ADD https://api.github.com/repos/Comfre91/wmbusmeters/git/refs/heads/master version.json
+RUN git clone https://github.com/Comfre91/wmbusmeters.git && \
     git clone https://github.com/weetmuts/rtl-wmbus.git && \
     git clone https://github.com/merbanan/rtl_433.git
 WORKDIR /wmbusmeters
