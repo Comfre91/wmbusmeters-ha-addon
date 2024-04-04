@@ -1,3 +1,5 @@
+## 1.14.4 
+- Updated to version [1.14.4](https://github.com/comfre91/wmbusmeters/blob/master/CHANGES)
 ## 1.14.2 
 - Updated to version [1.14.2](https://github.com/comfre91/wmbusmeters/blob/master/CHANGES)
 ## 1.14.0 
